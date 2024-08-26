@@ -145,7 +145,11 @@
 
             if (login === 'admin' && senha === 'admin') {
                 location.href = "index.html";
-            } else {
+            }
+            else if(login === '3d' && senha === '3d'){
+                location.href = "mockup.html";
+            } 
+            else {
                 alert('Usuário ou Senha incorretos!');
             }
         }
